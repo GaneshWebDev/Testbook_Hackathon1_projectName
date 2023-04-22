@@ -1,0 +1,332 @@
+body{
+    margin: 0px;
+
+    width: 100%;
+}
+/* styling header*/
+header{
+   background-color: #333;
+   display: flex;
+   flex-direction: column;
+   width: 100vw;
+   position: fixed;
+}
+/* styling nav bar*/
+nav{
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+nav div{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 120px;
+}
+nav div:hover{
+    background-color: black;
+
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* styling container 1*/
+.container1{
+ display: flex;
+ flex-direction: column;
+ color: white;
+ text-align: center;
+font-family: sans-serif;
+height: 100vh;
+width: 100vw;
+background-image: url("https://images.unsplash.com/photo-1612344441107-ef12287e4872?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container1 .t1 span{
+    font-size: 70px;
+}
+.container1 .t1{
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+.container1 .t2 span{
+    font-size: 35px;
+}
+.container1 .t2{
+    margin-bottom: 20px;
+}
+.container1 .t3 span{
+    font-size: 20px;
+}
+.container1 .t3{
+    margin-bottom:315px;
+}
+/* styling container 2*/
+.container2{
+    background-color: #252529;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+   font-family: sans-serif;
+   height: 175vh;
+   width: 100vw;
+}
+.container2 .music{
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    margin: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 1px white;
+}
+.container2 .music img{
+    height: 45px;
+    width: 45px;
+    margin-bottom: -6px;
+}
+.container2 .music span{
+    margin-bottom: 20px;
+}
+.container2 .songs{
+    font-size: 40px;
+    letter-spacing: -2px;
+}
+.container2 .stream{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.container2 .trial{
+    margin-top: 60px;
+}
+.container2 .trial a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 20px;
+}
+.container2 .avail{
+    margin-top: 50px;
+}
+.container2 .tab{
+    margin-top: 20px;
+}
+/* styling container 3*/
+.container3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   font-family: sans-serif;
+   height: 120vh;
+   width: 100vw;
+}
+.container3 .collection{
+    margin-top: 50px;
+}
+.container3 .collection span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.container3 .count{
+    margin-top: 35px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.container3 .count span{
+    font-size: 20px;
+    line-height: 1.8;
+}
+.container3 .read{
+    margin-top: 50px;
+}
+.container3 .read a{
+    color:white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 20px;
+
+}
+.container3 .home{
+    margin-top: 20px;
+}
+/* styling container 4*/
+.container4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   font-family: sans-serif;
+   color: white;
+   height: 70vh;
+   width: 100vw;
+   margin-top: 450px;
+   background-image: url("https://images.pexels.com/photos/11816821/pexels-photo-11816821.jpeg?auto=compress&cs=tinysrgb&w=600");
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container4 .world{
+    margin-top: 200px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.container4 .lorem{
+    margin-top: 35px;
+    margin-right: 180px;
+    margin-left: 180px;
+    line-height: 1.8;
+    font-size: 25px;
+}
+/* styling container 5*/
+.container5{
+    display: flex;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+.container5 .imgc img{
+    height: 350px;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+.container5 .content{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.container5 .content .title{
+    font-size: 35px;
+}
+.container5 .content .lorem{
+    margin-top: 30px;
+    line-height: 1.8;
+    margin-right: 250px;
+}
+.container5 .content .c1{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px black solid;
+    margin-right: 250px;
+}
+.container5 .content .redeem{
+    margin-top: 5px;
+}
+.container5 .content .redeem #r1{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container5 .content .redeem #r2{
+    font-size: 20px;
+}
+/* styling container 6*/
+.container6{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    justify-content: center;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.container6 .d1{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.container6 .d1 .td1{
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px white solid;
+    padding-bottom: 10px;
+    padding-right: 90px;
+}
+.container6 .d1 .list{
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 15px;
+    margin-top: 10px;
+}
+.container6 .d1 .list span{
+    margin: 5px;
+}
+.container6 .d2{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.container6 .d2 .td2{
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px white solid;
+    padding-bottom: 10px;
+    padding-right: 90px;
+}
+.container6 .d2 .list{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.container6 .d2 .list span{
+    margin: 5px;
+}
+.container6 .d3{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.container6 .d3 .td3{
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px white solid;
+    padding-bottom: 10px;
+    padding-right: 90px;
+}
+.container6 .d3 .list{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.container6 .d3 .list span{
+    margin: 5px;
+}
+.container6 .d4{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.container6 .d4 .td4{
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px white solid;
+    padding-bottom: 10px;
+    padding-right: 90px;
+}
+.container6 .d4 .list{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.container6 .d4 .list span{
+    margin: 5px;
+}
+/* styling container 7*/
+.container7{
+    background-color:#333 ;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.container7 span{
+    margin: 50px;
+}
